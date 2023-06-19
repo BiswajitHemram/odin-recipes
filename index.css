@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    margin: 10px;
+    color: rgb(110, 199, 199);
+}
+
+img{
+    margin: 0 420px;
+    width: 450px;
+    height: auto;
+}
+
+p{
+    margin-left: 10px;
+
+}
+
+ul{
+    margin-left: 50px;
+    list-style-type: none;
+    
+}
+
+li, p{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+#return{
+    color: rgb(236, 162, 25);
+    margin-left: 45%;
+}
