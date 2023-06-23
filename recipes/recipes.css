@@ -79,14 +79,16 @@ a:hover{
     
 }
 
+p.endLine{
+    text-align: center;
+    margin: 15px auto;
+    font-weight: bolder;
+}
+
 /* Chicken Biryani */
 
 .ingredients2{
     width: 500px;
     height: auto;
     margin-left: 5px;
-}
-
-.container p{
-    margin: 5px auto;
 }
