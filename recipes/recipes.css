@@ -13,11 +13,10 @@ body{
     margin: 50px;
     border-radius: 10px;
     border: 6px solid pink;
+    
 }
 
 .container{
-    
- 
     display: inline-block;
 }
 
@@ -25,10 +24,13 @@ body{
     width: 500px;
     height: auto;
     text-align: center;
+    vertical-align: top;
 }
 
+
 .image img{
-    margin: 0 auto;
+    
+    margin: 5px auto;
 }
 
 .image h1{
@@ -46,18 +48,20 @@ body{
     margin-left: 5px;
 }
 
-.ingredients h2{
+.ingredients,.ingredients2 h2{
     padding: 5px;
 }
 
-.ingredients ul{
+.ingredients,.ingredients2 ul{
     list-style: none;
     padding: 5px 0;
 }
 
 .link{
+    border: 3px soild red;
     width: 150px;
     height: auto;
+    vertical-align: top;
 }
 
 .link a{
@@ -70,6 +74,19 @@ body{
 }
 
 a:hover{
+   border-left: 2px solid red;
     margin: 2px;background-color: rgb(228, 223, 223);
+    
 }
 
+/* Chicken Biryani */
+
+.ingredients2{
+    width: 500px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.container p{
+    margin: 5px auto;
+}
