@@ -48,11 +48,11 @@ body{
     margin-left: 5px;
 }
 
-.ingredients,.ingredients2 h2{
+.ingredients,.ingredients2,.ingredients3 h2{
     padding: 5px;
 }
 
-.ingredients,.ingredients2 ul{
+.ingredients,.ingredients2,.ingredients3 ul{
     list-style: none;
     padding: 5px 0;
 }
@@ -89,6 +89,14 @@ p.endLine{
 
 .ingredients2{
     width: 500px;
+    height: auto;
+    margin-left: 5px;
+}
+
+/* Palak Paneer */
+
+.ingredients3{
+    width: 450px;
     height: auto;
     margin-left: 5px;
 }
